@@ -1,0 +1,313 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	/* header start */
+ .h_h1 {
+    font-size: 35px;
+    }
+    .h_8 {
+    font-size: 35px;
+    } 
+    .h_p {
+    font-size: 10px;
+    padding: 0px 4px;
+    letter-spacing: 5px;
+    }  
+    .menu ul li a{
+    font-size: 10px;
+    }
+    .btn_search {
+    font-size: 15px;
+    }
+
+    /* header end */
+    /* hero start */
+    .hero {
+    padding-top: 0px;
+    padding-bottom: 15px;
+    text-align: center;
+    }
+    .hero_h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    }
+    .hero_t {
+    font-size: 60px;
+    line-height: 55px;
+    }
+    .hero_p {
+    line-height: 22px;
+    padding: 0px 0px;
+    }
+    .btn-hero {
+    font-size: 15px;
+    border: 1px solid white;
+    }
+    /* hero end */
+    /* service start */
+    .service {
+    padding: 20px 0;
+    }
+    .service_left {
+    margin-top: 0;
+    text-align: center;
+    }
+    .service_left h1 {
+    font-size: 32px;
+    }
+    .service_left p {
+    font-size: 35px;
+    }
+    .skills_item {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    }
+    .skills_item i {
+    margin-left: 250px;
+    font-size: 20px;
+    }
+    .skills_item h3 {
+    margin: 5px 0 5px;
+    }
+    .skills_item p {
+    margin: 0px 0px;
+    }
+    /* service end */
+    /* portfolio start */
+    .portfolio {
+    padding: 30px 0px 10px;
+    }
+
+    .p_up {
+    margin-bottom: 10px;
+    }
+    .p_up h2 {
+    font-size: 20px;
+    line-height: 8px;
+    }
+    .p_up h1 {
+    font-size: 30px;
+    line-height: 40px;
+    }
+    .p_up h3 {
+    font-size: 38px;
+    line-height: 1px;
+    }
+    .p_up p {
+    font-size: 16px;
+    margin: 0px;
+    }
+    .p_m{
+    margin-bottom: 15px;
+    }
+    /* portfolio end */
+    /* team start */
+    .team {
+    padding-bottom: 15px;
+    margin-top: 30px;
+    }
+    .team_t p {
+    font-size: 20px;
+    }
+    .team_t h1 {
+    font-size: 30px;
+    line-height: 0px;
+    }
+    .team_t h2 {
+    font-size: 38px;
+    font-weight: 600;
+    color: #eeb501;
+    line-height: 35px;
+    }
+    .team_m {
+    margin-top: 0;
+    }
+    .team_card h2 {
+    margin-top: 5px;
+    font-size: 25px;
+    }
+    .team_card p {
+    font-size: 20px;
+    line-height: 10px;
+    }
+
+
+    /* team end */
+
+
+ }
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+/* hero start */
+.hero{
+padding-top: 15px;
+padding-bottom: 25px;
+text-align: center;
+}
+.hero_h2 {
+    font-size: 50px;
+    line-height: 45px;
+}
+.hero_t {
+    font-size: 100px;
+    line-height: 90px;
+}
+.hero_p {
+    line-height: 25px;
+    padding: 5px 0px;
+}
+.btn-hero{
+    font-size: 15px;
+}
+
+
+
+/* hero end */
+/* service start */
+.service {
+    padding: 20px 0 0;
+    }
+
+
+.service_left {
+    margin-top: 0px;
+    text-align: center;
+    }
+    .service_left h1 {
+    font-size: 35px;
+    }
+    .service_left p {
+    font-size: 45px;
+    }
+    .skills_item i {
+    margin-left: 90px;
+    font-size: 20px;
+    }
+    .skills_item h3 {
+    margin: 5px 0;
+    }
+    .skills_item p {
+    margin: 0px;
+    }
+    .skills_item {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    }
+/* sevice end */
+/* portfolio start */
+.portfolio {
+    padding: 40px 0px 20px;
+    }
+.p_up {
+    margin-bottom: 30px;
+}
+.p_up h2 {
+    line-height: 35px;
+}
+.p_up h1 {
+    line-height: 30px;
+}
+.p_up h3 {
+    line-height: 30px;
+}
+   .p_up p {
+    font-size: 16px;
+    margin: 0px;
+    }
+    .p_m{
+    margin-bottom: 20px;
+    margin-left: 125px;
+    }
+/* portfolio end */
+/* team start */
+.team {
+    padding-bottom: 40px;
+    margin-top: 40px;
+    }
+/* team end */
+
+
+	
+ }
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* service start */
+    .service {
+    padding: 35px 0 50px;
+    }
+    .service_left {
+    margin-top: 0px;
+    text-align: center;
+    }
+    .service_left h1 {
+    font-size: 35px;
+
+    }
+    .service_left p {
+    font-size: 50px;
+    }
+    .skills_item {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    }
+    .skills_item i {
+    margin-left: 125px;
+    font-size: 25px;
+    }
+    .skills_item h3 {
+    margin:5px 0;
+    }
+    .skills_item p {
+    margin: 0px;
+    }
+
+    /* sevice end */
+    /* portfolio start */
+    .portfolio {
+    padding: 70px 0px 50px;
+    }
+    .p_up p {
+        margin: 0px 30px;
+    }
+    .p_m{
+    margin-bottom: 20px;
+    margin-left: 145px;
+    }
+
+
+    /* portfolio end */
+	
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* service start */
+    .service {
+    padding: 65px 0;
+    }
+    .skills_item i {
+    margin-left: 115px;
+    }
+    /* service end */
+    /* portfolio start */
+    .p_up p {
+        margin: 0px 180px;
+    }
+    /* portfolio end */
+
+
+ 
+ }
+
+ /*X-Large devices (large desktops, 1300px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+ }
+
+ /*Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	
+
+ }
